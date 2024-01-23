@@ -38,7 +38,7 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/" className="d-flex">
+        <Navbar.Brand href="/" className="d-flex" >
           <img src={logo} className="img-fluid logo" alt="brand" />
         </Navbar.Brand>
         <Navbar.Toggle
@@ -47,9 +47,6 @@ function NavBar() {
             updateExpanded(expand ? false : "expanded");
           }}
         >
-          <span></span>
-          <span></span>
-          <span></span>
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
@@ -88,7 +85,7 @@ function NavBar() {
                 to="/resume"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Tution
+                <CgFileDocument style={{ marginBottom: "2px" }} /> Tuition
               </Nav.Link>
             </Nav.Item>
 
@@ -102,9 +99,10 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeWvBFdNxTZVitXt9QOxLrCmv4uNwq5jvTUn2kr2K0K0bxFTw/viewform?embedded=true" width="640" height="1198" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/soumyajit4419/Portfolio"
+                href="https://github.com/tech-key-academy"
                 target="_blank"
                 className="fork-btn-inner"
               >
