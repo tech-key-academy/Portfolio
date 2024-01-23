@@ -91,7 +91,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://soumyajitblogs.vercel.app/"
+                href="https://forms.gle/tSmhxNwx6B1E9hFo7"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -99,7 +99,6 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeWvBFdNxTZVitXt9QOxLrCmv4uNwq5jvTUn2kr2K0K0bxFTw/viewform?embedded=true" width="640" height="1198" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
             <Nav.Item className="fork-btn">
               <Button
                 href="https://github.com/tech-key-academy"
