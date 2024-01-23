@@ -78,7 +78,7 @@ function NavBar() {
                 <AiOutlineFundProjectionScreen
                   style={{ marginBottom: "2px" }}
                 />{" "}
-                Projects
+                Courses
               </Nav.Link>
             </Nav.Item>
 
@@ -88,7 +88,7 @@ function NavBar() {
                 to="/resume"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+                <CgFileDocument style={{ marginBottom: "2px" }} /> Tution
               </Nav.Link>
             </Nav.Item>
 
@@ -98,7 +98,7 @@ function NavBar() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <ImBlog style={{ marginBottom: "2px" }} /> Blogs
+                <ImBlog style={{ marginBottom: "2px" }} /> Contact Us
               </Nav.Link>
             </Nav.Item>
 
