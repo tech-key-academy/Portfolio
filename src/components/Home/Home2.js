@@ -14,40 +14,36 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> Tech-key Academy
+              LET ME INTRODUCE <span className="purple"> Tech-key Academy </span>
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
+              Welcome to our unique learning platform aiming to solve 
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
+                <b className="purple">  industry's need for skilled engineer after graduation</b>.
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              We offer cutting-edge training in the latest skills essential for solving real-world problems.
+              <br />
+              Our projects are led by seasoned 
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
+                <b className="purple"> industry professionals </b> with a minimum 5 years of experience 
               </i>
+              ensuring practical insights and mentorship.
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              <br />
+              Here, you have the opportunity to build a robust CV with a portfolio  
+              of <b className="purple">
+                 live projects
+              </b>,
+              setting you on the path to realizing 
+               your <b className="purple">
+              dream of becoming a Software Engineer
+              </b> in top US Product Software companies.
+              <br />
+              Join us and take the first step towards a successful and fulfilling career. &nbsp;
+              <br />
             </p>
           </Col>
           <Col md={4} className="myAvtar">
