@@ -17,7 +17,7 @@ function Home2() {
               LET ME INTRODUCE <span className="purple"> Tech-key Academy </span>
             </h1>
             <p className="home-about-body">
-              Welcome to our unique learning platform aiming to solve 
+              Welcome to our unique learning platform aiming to solve
               <i>
                 <b className="purple">  industry's need for skilled engineer after graduation</b>.
               </i>
@@ -25,21 +25,21 @@ function Home2() {
               <br />
               We offer cutting-edge training in the latest skills essential for solving real-world problems.
               <br />
-              Our projects are led by seasoned 
+              Our projects are led by seasoned
               <i>
-                <b className="purple"> industry professionals </b> with a minimum 5 years of experience 
+                <b className="purple"> industry professionals </b> with a minimum 5 years of experience &nbsp;
               </i>
               ensuring practical insights and mentorship.
               <br />
               <br />
               <br />
-              Here, you have the opportunity to build a robust CV with a portfolio  
+              Here, you have the opportunity to build a robust CV with a portfolio
               of <b className="purple">
-                 live projects
+                live projects
               </b>,
-              setting you on the path to realizing 
-               your <b className="purple">
-              dream of becoming a Software Engineer
+              setting you on the path to realizing
+              your <b className="purple">
+                dream of becoming a Software Engineer
               </b> in top US Product Software companies.
               <br />
               Join us and take the first step towards a successful and fulfilling career. &nbsp;

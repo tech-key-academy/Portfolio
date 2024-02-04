@@ -86,7 +86,7 @@ button:focus {
 .navbar {
   position: fixed !important;
   transition: all 0.3s ease-out 0s !important;
-  padding: 0.5rem 1rem !important;
+  padding: 0.5rem 0.5rem !important;
   font-size: 1.1rem !important;
 }
 
@@ -143,7 +143,7 @@ button:focus {
 
 @media (max-width: 767px) {
   .navbar {
-    padding: 1rem 2rem !important;
+    padding: 1rem 1rem !important;
     font-size: 1.4rem !important;
     background-color: #181a27 !important;
   }
@@ -156,7 +156,7 @@ button:focus {
 }
 
 .logo {
-  padding: 1.1em;
+  padding: 0.2em;
   height: 5.7em !important;
   width: 7.5em !important;
 }
