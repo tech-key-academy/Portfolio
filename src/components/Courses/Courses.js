@@ -33,7 +33,7 @@ function Courses() {
             <CourseCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Web Backend Developer"
+              title="Web Backend Development"
             />
           </Col>
 
@@ -41,7 +41,7 @@ function Courses() {
             <CourseCard
               imgPath={editor}
               isBlog={false}
-              title="Web Frontend Developer"
+              title="Web Frontend Development"
             />
           </Col>
 
