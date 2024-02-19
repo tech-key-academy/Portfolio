@@ -72,7 +72,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/project"
+                to="/courses"
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineFundProjectionScreen style={{ marginBottom: "2px" }}/>{" "} Courses
@@ -82,7 +82,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/resume"
+                to="/tuition"
                 onClick={() => updateExpanded(false)}
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Tuition

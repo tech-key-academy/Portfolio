@@ -11,17 +11,17 @@ import bitsOfCode from "../../Assets/Courses/blog.png";
 
 function Courses() {
   return (
-    <Container fluid className="project-section">
+    <Container fluid className="course-section">
       <Particle />
       <Container>
-        <h1 className="project-heading">
+        <h1 className="course-heading">
           Our <strong className="purple">Courses </strong>
         </h1>
         <p style={{ color: "white" }}>
           are perfectly tailored to meet industry needs
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+          <Col md={4} className="course-card">
             <CourseCard
               imgPath={chatify}
               isBlog={false}
@@ -30,7 +30,7 @@ function Courses() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={4} className="course-card">
             <CourseCard
               imgPath={bitsOfCode}
               isBlog={false}
@@ -39,7 +39,7 @@ function Courses() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={4} className="course-card">
             <CourseCard
               imgPath={editor}
               isBlog={false}
@@ -48,7 +48,7 @@ function Courses() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={4} className="course-card">
             <CourseCard
               imgPath={leaf}
               isBlog={false}
@@ -57,7 +57,7 @@ function Courses() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={4} className="course-card">
             <CourseCard
               imgPath={suicide}
               isBlog={false}
@@ -66,7 +66,7 @@ function Courses() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={4} className="course-card">
             <CourseCard
               imgPath={emotion}
               isBlog={false}

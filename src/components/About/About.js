@@ -34,13 +34,13 @@ function About() {
             <img src={laptopImg} alt="about" className="img-fluid" />
           </Col>
         </Row>
-        <h1 className="project-heading">
+        <h1 className="course-heading">
           Professional <strong className="purple">Skillset </strong> You Earn
         </h1>
 
         <Techstack />
 
-        <h1 className="project-heading">
+        <h1 className="course-heading">
           <strong className="purple">Tools </strong> 
           You Get To Know
         </h1>
