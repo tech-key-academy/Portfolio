@@ -1,15 +1,15 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import ProjectCard from "./ProjectCards";
+import CourseCard from "./CourseCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import leaf from "../../Assets/Courses/leaf.png";
+import emotion from "../../Assets/Courses/emotion.png";
+import editor from "../../Assets/Courses/codeEditor.png";
+import chatify from "../../Assets/Courses/chatify.png";
+import suicide from "../../Assets/Courses/suicide.png";
+import bitsOfCode from "../../Assets/Courses/blog.png";
 
-function Projects() {
+function Courses() {
   return (
     <Container fluid className="project-section">
       <Particle />
@@ -22,10 +22,10 @@ function Projects() {
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
-            <ProjectCard
+            <CourseCard
               imgPath={chatify}
               isBlog={false}
-              title="Full Stack Software Engineer"
+              title="Full Stack Software Engineering"
               description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
               ghLink="https://github.com/soumyajit4419/Chatify"
               demoLink="https://chatify-49.web.app/"
@@ -33,7 +33,7 @@ function Projects() {
           </Col>
 
           <Col md={4} className="project-card">
-            <ProjectCard
+            <CourseCard
               imgPath={bitsOfCode}
               isBlog={false}
               title="Web Backend Developer"
@@ -44,7 +44,7 @@ function Projects() {
           </Col>
 
           <Col md={4} className="project-card">
-            <ProjectCard
+            <CourseCard
               imgPath={editor}
               isBlog={false}
               title="Web Frontend Developer"
@@ -55,7 +55,7 @@ function Projects() {
           </Col>
 
           <Col md={4} className="project-card">
-            <ProjectCard
+            <CourseCard
               imgPath={leaf}
               isBlog={false}
               title="Software Testing"
@@ -66,7 +66,7 @@ function Projects() {
           </Col>
 
           <Col md={4} className="project-card">
-            <ProjectCard
+            <CourseCard
               imgPath={suicide}
               isBlog={false}
               title="Android App Development"
@@ -77,7 +77,7 @@ function Projects() {
           </Col>
 
           <Col md={4} className="project-card">
-            <ProjectCard
+            <CourseCard
               imgPath={emotion}
               isBlog={false}
               title="IOS App Development"
@@ -93,4 +93,4 @@ function Projects() {
   );
 }
 
-export default Projects;
+export default Courses;
