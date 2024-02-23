@@ -1,12 +1,14 @@
 import React from "react";
+import { Button } from "react-bootstrap";
 import Card from "react-bootstrap/Card";
 
 function CourseCards(props) {
   return (
     <Card className="course-card-view">
-      <Card.Img variant="top" src={props.imgPath} alt="card-img" />
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
+        <br></br>
+        <Button href="https://forms.gle/tSmhxNwx6B1E9hFo7"> APPLY </Button>
       </Card.Body>
     </Card>
   );
