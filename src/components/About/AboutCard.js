@@ -7,7 +7,10 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "We are a bunch of techies working in different software
+            organizations, in the strive to build a skilled next generation. we
+            believe with proper mentoring, right set of skill and good practice,
+            we can build a skilled resource pool for industry"
           </p>
           <footer className="blockquote-footer">Abhijit</footer>
         </blockquote>

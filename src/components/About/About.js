@@ -28,7 +28,7 @@ function About() {
           </Col>
           <Col
             md={5}
-            style={{ paddingTop: "120px", paddingBottom: "50px" }}
+            style={{ paddingTop: "30px", paddingBottom: "50px" }}
             className="about-img"
           >
             <img src={laptopImg} alt="about" className="img-fluid" />
@@ -41,7 +41,7 @@ function About() {
         <Techstack />
 
         <h1 className="course-heading">
-          <strong className="purple">Tools </strong> 
+          <strong className="purple">Tools </strong>
           You Get To Know
         </h1>
         <Toolstack />
