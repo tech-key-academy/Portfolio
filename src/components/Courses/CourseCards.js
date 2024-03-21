@@ -8,6 +8,8 @@ function CourseCards(props) {
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
         <br></br>
+        <Card.Body>{props.body}</Card.Body>
+        <br></br>
         <Button href="https://forms.gle/tSmhxNwx6B1E9hFo7"> APPLY </Button>
       </Card.Body>
     </Card>
